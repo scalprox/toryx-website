@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "toryx":"TORYX"
+  },
+  "Metadata": {
+    "title": "Toryx - Rust-inspired Error Handling for TypeScript & JavaScript",
+    "description": "Simplify error handling in TypeScript and JavaScript with Toryx. Implement Rust's Ok/Err pattern for consistent, type-safe error management across your projects.",
+    "keywords": "typescript error handling, javascript error handling, rust ok err, type-safe errors, toryx, error management library, typescript library, rust pattern javascript",
+    "ogTitle":"Toryx - Rust-inspired Error Handling for TypeScript & JavaScript",
+    "ogDescription": "Simplify error handling in TypeScript and JavaScript with Toryx. Implement Rust's Ok/Err pattern for consistent, type-safe error management.",
+    "twitterTitle": "Toryx - Rust-inspired Error Handling for TypeScript & JavaScript",
+    "twitterDescription": "Simplify error handling in TypeScript and JavaScript with Toryx. Implement Rust's Ok/Err pattern for consistent, type-safe error management."
+  }
+}
