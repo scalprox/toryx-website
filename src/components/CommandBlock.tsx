@@ -14,12 +14,12 @@ const CommandBlock = ({textContent}: Props) => {
 
     return (
         <div className="flex mx-auto items-center gap-8 p-3 bg-background-light border-gradient border-toryx-gradient rounded-md shadow-neutral hover:shadow-hovered transition-all">
-            <div className="flex items-center gap-2 font-cascadia">
+            <pre className="flex items-center gap-2 font-cascadia">
                 <span className="font-normal select-none opacity-30">$</span>
-                <span>
+                <code>
                     {textContent}
-                </span>
-            </div>
+                </code>
+            </pre>
             <button onClick={() => onCopy(textContent)} className="relative w-[18px] h-[18px]">
                     <span>
                         <CopyHover size={18} className="opacity-50 hover:opacity-100 transition-opacity" />

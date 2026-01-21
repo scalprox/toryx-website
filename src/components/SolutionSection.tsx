@@ -27,8 +27,8 @@ const SolutionItem = ({index}: {index:number}) => {
     const t = useTranslations('HomePage.solution')
 
     return (
-        <li className="solution-card flex-col md:flex-row md:even:flex-row-reverse gap-6 rounded-4xl">
-            <div className="flex-1 gap-2 flex flex-col">
+        <li className="solution-card group flex-col md:flex-row md:even:flex-row-reverse gap-6 rounded-4xl">
+            <div className="flex-1 gap-2 flex flex-col md:group-even:text-end md:group-even:items-end">
                 <h3 className="text-4xl">{t(`${index}.title`)}</h3>
                 <p className="text-foreground-dark">{t(`${index}.desc`)}</p>
             </div>

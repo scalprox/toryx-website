@@ -34,7 +34,7 @@
       },
       "2": {
         "title": "Clean & Consistent",
-        "desc": "Say goodbye to nested try-catch spaghetti. Toryx provides one standard, elegant pattern for error handling across your entire codebase—from APIs to forms to database queries.",
+        "desc": "Say goodbye to nested try-catch spaghetti. Toryx provides one standard, elegant pattern for error handling across your entire codebase, from APIs to forms to database queries.",
         "hint1":"Flat, readable code structure",
         "hint2": "Team-wide consistency",
         "hint3": "Easy code reviews"
@@ -46,6 +46,10 @@
         "hint2": "Zero runtime overhead",
         "hint3": "Works with existing code"
       }
+    },
+    "beforeAfter": {
+      "title": "See the Difference",
+      "desc": "The same async operation, two approaches. One clear winner."
     }
   },
   "Metadata": {

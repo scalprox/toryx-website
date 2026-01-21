@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+    color-scheme: dark;
     --background: #19192d;
     --foreground: #171717;
     --foreground-dark: oklch(0.7 0 0);
@@ -42,12 +43,14 @@
         --background-dark: oklch(0.165 0.0371 282.84);
         --background: oklch(0.185 0.0371 282.84);
         --background-light: oklch(0.200 0.0371 282.84);
-        --background-extra-light: oklch(0.300 0.0371 282.84);
+        --background-extra-light: oklch(0.250 0.0371 282.84);
         --foreground: oklch(0.92 0 0);
         --foreground-dark: oklch(0.8 0.0126 200);
         --foreground-extra-dark: oklch(0.3 0.0126 200);
     }
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--foreground);
@@ -79,7 +82,7 @@ button {
 
 .border-toryx-gradient {
     position: relative;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
 .border-toryx-gradient:after {
