@@ -177,10 +177,6 @@ button {
     border-radius: inherit;
 }
 
-.solution-card:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
 .solution-card:nth-child(even):after {
     background: var(--toryx-gradient-right);
 }

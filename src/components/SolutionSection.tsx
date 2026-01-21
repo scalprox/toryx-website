@@ -9,7 +9,7 @@ const SolutionSection = () => {
         <div className="flex flex-col mx-auto gap-6">
             <div>
                 <div className="py-2 px-6 -rotate-4 bg-primary-dark w-fit rounded-3xl m-auto">
-                    <h2 className="text-2xl">The solution</h2>
+                    <span className="text-2xl font-barlow">The solution</span>
                 </div>
                 <h2 className="text-center text-3xl mb-2">{t("title")}</h2>
                 <p className="text-center text-foreground-dark">{t("desc")}</p>
@@ -27,8 +27,8 @@ const SolutionItem = ({index}: {index:number}) => {
     const t = useTranslations('HomePage.solution')
 
     return (
-        <li className="solution-card rounded-4xl">
-            <div className="flex-1">
+        <li className="solution-card flex-col md:flex-row md:even:flex-row-reverse gap-6 rounded-4xl">
+            <div className="flex-1 gap-2 flex flex-col">
                 <h3 className="text-4xl">{t(`${index}.title`)}</h3>
                 <p className="text-foreground-dark">{t(`${index}.desc`)}</p>
             </div>
