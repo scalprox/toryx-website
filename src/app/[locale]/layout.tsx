@@ -1,7 +1,7 @@
 import "../globals.css";
 import React from "react";
 import type {Metadata} from "next";
-import {Inter} from "next/font/google";
+import {Inter, Barlow, Cascadia_Code} from "next/font/google";
 import {NextIntlClientProvider, hasLocale, Locale} from "next-intl";
 import {routing} from "@/i18n/routing";
 import {getTranslations, setRequestLocale} from "next-intl/server";
@@ -10,6 +10,18 @@ import {notFound} from "next/navigation";
 const interSans = Inter({
     variable: "--font-inter-sans",
     subsets: ["latin"],
+});
+
+const barlowSans = Barlow({
+    variable: "--font-barlow-sans",
+    subsets: ["latin"],
+    weight:"700"
+});
+
+const cascadiaSans = Cascadia_Code({
+    variable: "--font-cascadia-sans",
+    subsets: ["latin"],
+    weight:"500"
 });
 
 export function generateStaticParams() {
@@ -62,7 +74,7 @@ export default async function LocaleLayout({children, params}: LayoutProps<'/[lo
         return (
             <html lang={locale}>
             <body
-                className={`${interSans.variable} antialiased`}
+                className={`${interSans.variable} ${barlowSans.variable} ${cascadiaSans.variable} antialiased`}
             >
             <NextIntlClientProvider>
                 {children}
