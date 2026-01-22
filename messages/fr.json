@@ -62,6 +62,19 @@
         "arg1": "Type safe",
         "arg2": "Easy error handle"
       }
+    },
+    "supportedStack": {
+      "title": "Plug into your stack",
+      "desc": "Official integrations for popular frameworks, with more on the way",
+      "tools": {
+        "express": {
+          "title": "Express.js Middleware",
+          "desc": "Drop-in error handling middleware that transforms your Express app's error management. Catch errors automatically, transform them into consistent responses, and maintain full type safety.",
+          "arg1": "Zero Config",
+          "arg2": "Type-Safe",
+          "arg3": "Safe error response"
+        }
+      }
     }
   },
   "Metadata": {

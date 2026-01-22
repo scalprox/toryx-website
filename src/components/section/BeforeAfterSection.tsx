@@ -2,8 +2,7 @@ import React from 'react';
 import {useTranslations} from "next-intl";
 import CodeBlock from "@/components/CodeBlock";
 import {beforeToryx, afterToryx} from "@/data/codeExample";
-import { IoCloseCircle } from "react-icons/io5";
-import { FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa6";
 
 
@@ -22,7 +21,7 @@ const BeforeAfterSection = () => {
                     </div>
                     <CodeBlock code={beforeToryx} />
                     <div className="flex items-center justify-center gap-2 mt-2 text-gray-400 text-sm font-medium">
-                        <IoCloseCircle className="text-gray-600" size={25}/>
+                        <FaTimesCircle className="text-gray-600" size={20}/>
                         <span>{t("before.arg1")}</span>
                         •
                         <span>{t("before.arg2")}</span>
@@ -41,7 +40,7 @@ const BeforeAfterSection = () => {
                         <FaCheckCircle className="text-primary" size={20}/>
                         <span>{t("after.arg1")}</span>
                         •
-                        <span>{t("after.arg1")}</span>
+                        <span>{t("after.arg2")}</span>
                     </div>
                 </div>
             </div>
