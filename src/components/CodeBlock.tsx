@@ -3,9 +3,9 @@
 import React from 'react';
 import ShikiHighlighter from "react-shiki";
 
-const CodeBlock = ({code}: { code: string }) => {
+const CodeBlock = ({code, classname}: { code: string, classname?:string }) => {
     return (
-        <ShikiHighlighter language="tsx" theme={"ayu-dark"} className="max-h-150 overflow-auto">
+        <ShikiHighlighter language="tsx" theme={"kanagawa-wave"} className={` ${classname}`}>
             {code.trim()}
         </ShikiHighlighter>
     );

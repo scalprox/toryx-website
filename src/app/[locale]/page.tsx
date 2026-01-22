@@ -2,7 +2,7 @@ import {useTranslations} from "next-intl";
 import CommandBlock from "@/components/CommandBlock";
 import ProblemSection from "@/components/ProblemSection";
 import SolutionSection from "@/components/SolutionSection";
-import BeforeAfter from "@/components/BeforeAfter";
+import BeforeAfterSection from "@/components/BeforeAfterSection";
 
 export default function Home() {
     const t = useTranslations('HomePage')
@@ -21,8 +21,8 @@ export default function Home() {
             <section className="p-1">
                 <SolutionSection/>
             </section>
-            <section className="p-1">
-                <BeforeAfter/>
+            <section className="p-1 max-w-[98%]">
+                <BeforeAfterSection/>
             </section>
         </main>
     );

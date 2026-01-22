@@ -49,7 +49,19 @@
     },
     "beforeAfter": {
       "title": "See the Difference",
-      "desc": "The same async operation, two approaches. One clear winner."
+      "desc": "The same async operation, two approaches. One clear winner.",
+      "before": {
+        "title": "Traditional Try-Catch",
+        "desc": "Nested, unclear, error-prone",
+        "arg1": "Lost error context",
+        "arg2": "Unknown return type"
+      },
+      "after": {
+        "title": "With Toryx",
+        "desc": "Clean, explicit, type-safe",
+        "arg1": "Type safe",
+        "arg2": "Easy error handle"
+      }
     }
   },
   "Metadata": {

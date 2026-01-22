@@ -46,7 +46,7 @@ const SolutionItem = ({index}: {index:number}) => {
 const HintItem = ({textContent}: {textContent: string}) => {
     return (
         <li className="flex items-center gap-2 bg-background-extra-light p-2 rounded-xl shadow-m">
-            <FaCheckCircle className="text-green-400" size={20}/>
+            <FaCheckCircle className="text-primary" size={20}/>
             {textContent}
         </li>
     )
