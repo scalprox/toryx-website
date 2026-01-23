@@ -42,6 +42,9 @@ export async function generateMetadata(
         title: t('title'),
         description: t('description'),
         keywords: t('keywords'),
+        appleWebApp:{
+          title:"Toryx"
+        },
         alternates: {
             canonical: `${baseUrl}/${locale}`,
             languages: {
