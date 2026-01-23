@@ -21,7 +21,7 @@ const barlowSans = Barlow({
 const cascadiaSans = Cascadia_Code({
     variable: "--font-cascadia-sans",
     subsets: ["latin"],
-    weight:"500"
+    weight:["300","500"]
 });
 
 export function generateStaticParams() {

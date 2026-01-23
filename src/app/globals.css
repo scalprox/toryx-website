@@ -6,7 +6,9 @@
     --foreground: #171717;
     --foreground-dark: oklch(0.7 0 0);
     --toryx-blue: oklch(0.6411 0.1477 259.76);
+    --toryx-blue-50: oklch(0.6411 0.1477 259.76 / 50%);
     --toryx-blue-dark: oklch(0.4411 0.1477 259.76);
+    --toryx-blue-dark-50: oklch(0.4411 0.1477 259.76 / 50%);
     --toryx-gradient: linear-gradient(180deg, var(--toryx-blue) 0%, var(--toryx-blue-dark) 100%);
     --toryx-gradient-left: linear-gradient(90deg, var(--toryx-blue) 0%, transparent 80%);
     --toryx-gradient-right: linear-gradient(-90deg, var(--toryx-blue) 0%, transparent 80%);
@@ -26,7 +28,9 @@
     --color-foreground: var(--foreground);
     --color-foreground-dark: var(--foreground-dark);
     --color-primary: var(--toryx-blue);
+    --color-primary-50: var(--toryx-blue-50);
     --color-primary-dark: var(--toryx-blue-dark);
+    --color-primary-dark-50: var(--toryx-blue-dark-50);
     --font-sans: var(--font-inter-sans);
     --font-barlow: var(--font-barlow-sans);
     --font-cascadia: var(--font-cascadia-sans);
@@ -49,7 +53,6 @@
         --foreground-extra-dark: oklch(0.3 0.0126 200);
     }
 }
-
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,13 +116,13 @@ button {
     position: relative;
 }
 
-.card .image-container{
+.card .image-container {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
 }
 
-.card > *:nth-child(1):after{
+.card > *:nth-child(1):after {
     content: "";
     width: 60%;
     display: block;
@@ -128,7 +131,7 @@ button {
     height: 1px;
 }
 
-.card .image-container:after{
+.card .image-container:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -138,7 +141,7 @@ button {
     background: linear-gradient(transparent, var(--background-light));
 }
 
-.card .image-container img{
+.card .image-container img {
     display: block;
     width: 100%;
     height: auto;
@@ -159,6 +162,38 @@ button {
     padding: 28px;
     width: 100%;
 }
+
+.sidegradient-border-l, .sidegradient-border-r {
+    position: relative;
+    width: 100%;
+}
+
+.sidegradient-border-l:after {
+    background: var(--toryx-gradient-left);
+}
+
+.sidegradient-border-r:after {
+    background: var(--toryx-gradient-right);
+}
+
+.sidegradient-border-l:after, .sidegradient-border-r:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0;
+    padding: 2px;
+    mask: linear-gradient(#000, #000) content-box, linear-gradient(#000, #000);
+    mask-composite: exclude;
+    border-radius: inherit;
+}
+
 
 .solution-card:after {
     background: var(--toryx-gradient-left);

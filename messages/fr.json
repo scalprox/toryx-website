@@ -1,4 +1,7 @@
 {
+  "base": {
+    "submit": "Submit"
+  },
   "HomePage": {
     "toryx": "TORYX",
     "heroTitle": "Type-Safe Error Handling",
@@ -74,7 +77,9 @@
           "arg2": "Type-Safe",
           "arg3": "Safe error response"
         }
-      }
+      },
+      "comingSoon": "Coming soon",
+      "notified": "Want to be notified when your framework is supported ?"
     }
   },
   "Metadata": {
