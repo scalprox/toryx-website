@@ -1,6 +1,9 @@
 {
   "base": {
-    "submit": "Submit"
+    "submit": "Submit",
+    "homeLink": "Home",
+    "npmLink": "Npm project",
+    "gitHubLink": "Github source code"
   },
   "HomePage": {
     "toryx": "TORYX",

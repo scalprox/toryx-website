@@ -6,6 +6,7 @@ import {NextIntlClientProvider, hasLocale, Locale} from "next-intl";
 import {routing} from "@/i18n/routing";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 import {notFound} from "next/navigation";
+import Header from "@/components/Header";
 
 const interSans = Inter({
     variable: "--font-inter-sans",
@@ -15,13 +16,13 @@ const interSans = Inter({
 const barlowSans = Barlow({
     variable: "--font-barlow-sans",
     subsets: ["latin"],
-    weight:"700"
+    weight: "700"
 });
 
 const cascadiaSans = Cascadia_Code({
     variable: "--font-cascadia-sans",
     subsets: ["latin"],
-    weight:["300","500"]
+    weight: ["300", "500"]
 });
 
 export function generateStaticParams() {
@@ -42,8 +43,8 @@ export async function generateMetadata(
         title: t('title'),
         description: t('description'),
         keywords: t('keywords'),
-        appleWebApp:{
-          title:"Toryx"
+        appleWebApp: {
+            title: "Toryx"
         },
         alternates: {
             canonical: `${baseUrl}/${locale}`,
@@ -79,6 +80,7 @@ export default async function LocaleLayout({children, params}: LayoutProps<'/[lo
             <body
                 className={`${interSans.variable} ${barlowSans.variable} ${cascadiaSans.variable} antialiased`}
             >
+            <Header />
             <NextIntlClientProvider>
                 {children}
             </NextIntlClientProvider>

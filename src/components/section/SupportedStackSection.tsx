@@ -46,17 +46,17 @@ const SupportedStackSection = () => {
                 <div className="flex-1 flex flex-col items-center justify-center">
                     <h3 className="text-3xl mb-2 sm:hidden">{t("comingSoon")}</h3>
                     <div className="grid grid-cols-4 w-fit gap-4 sm:grid-cols-2 md:grid-cols-4">
-                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary">
-                            <Image className="mx-auto opacity-55" src={"/icons/next.svg"} alt="Toryx NextJS" width={50} height={50} />
+                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary opacity-55 hover:opacity-100 hover:scale-102 transition-all hover:shadow-hovered">
+                            <Image className="mx-auto" src={"/icons/next.svg"} alt="Toryx NextJS" width={50} height={50} />
                         </div>
-                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary">
-                            <Image className="mx-auto opacity-55" src={"/icons/nestjs.svg"} alt="Toryx NestJS" width={50} height={50} />
+                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary opacity-55 hover:opacity-100 hover:scale-102 transition-all hover:shadow-hovered">
+                            <Image className="mx-auto" src={"/icons/nestjs.svg"} alt="Toryx NestJS" width={50} height={50} />
                         </div>
-                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary">
-                            <Image className="mx-auto opacity-55" src={"/icons/fastify.svg"} alt="Toryx Fastify" width={50} height={50} />
+                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary opacity-55 hover:opacity-100 hover:scale-102 transition-all hover:shadow-hovered">
+                            <Image className="mx-auto" src={"/icons/fastify.svg"} alt="Toryx Fastify" width={50} height={50} />
                         </div>
-                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary">
-                            <Image className="mx-auto opacity-55" src={"/icons/react.svg"} alt="Toryx React" width={50} height={50} />
+                        <div className="p-2 rounded-xl w-fit bg-primary-dark-50 border-1 border-primary opacity-55 hover:opacity-100 hover:scale-102 transition-all hover:shadow-hovered">
+                            <Image className="mx-auto" src={"/icons/react.svg"} alt="Toryx React" width={50} height={50} />
                         </div>
                     </div>
                 </div>

@@ -31,7 +31,7 @@ const BeforeAfterSection = () => {
                     <FaArrowDown className="text-primary" size={30}/>
                 </div>
                 <div className="xl:sticky top-50 h-fit">
-                    <div className="mb-4 p-4 bg-primary-dark shadow-hovered rounded-xl">
+                    <div className="mb-4 p-4 bg-toryx-gradient shadow-hovered rounded-xl">
                         <h3 className="text-2xl">{t("after.title")}</h3>
                         <p className="text-foreground-dark">{t("after.desc")}</p>
                     </div>

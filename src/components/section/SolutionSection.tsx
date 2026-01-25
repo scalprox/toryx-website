@@ -8,8 +8,8 @@ const SolutionSection = () => {
     return (
         <div className="flex flex-col mx-auto gap-6">
             <div>
-                <div className="py-2 px-6 -rotate-4 bg-primary-dark w-fit rounded-3xl m-auto">
-                    <span className="text-2xl font-barlow">The solution</span>
+                <div className="py-2 px-6 -rotate-4 bg-toryx-gradient shadow-hovered w-fit rounded-3xl m-auto">
+                    <span className="select-none text-2xl font-barlow">The solution</span>
                 </div>
                 <h2 className="text-center text-3xl mb-2">{t("title")}</h2>
                 <p className="text-center text-foreground-dark">{t("desc")}</p>
