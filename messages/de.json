@@ -1,0 +1,108 @@
+{
+  "base": {
+    "submit": "Absenden",
+    "homeLink": "Startseite",
+    "npmLink": "Npm-Projekt",
+    "gitHubLink": "Github-Quellcode",
+    "email": {
+      "unknownError": "Registrierung fehlgeschlagen, versuchen Sie es später erneut",
+      "duplicated": "E-Mail bereits registriert",
+      "success": "Erfolgreich",
+      "invalid": "E-Mail ist ungültig"
+    }
+  },
+  "HomePage": {
+    "toryx": "TORYX",
+    "heroTitle": "Typsichere Fehlerbehandlung",
+    "heroSub": "Toryx implementiert Rusts bewährtes Ok/Err-Muster, um das Chaos bei der Fehlerbehandlung zu beseitigen. Erstellen Sie zuverlässigere Anwendungen mit konsistentem, vorhersehbarem Fehlermanagement, das mit Ihrem Projekt skaliert.",
+    "problems": {
+      "title": "Das Problem der Fehlerbehandlung",
+      "1": {
+        "title": "Inkonsistente Fehlerbehandlung",
+        "desc": "Jeder Entwickler in Ihrem Team behandelt Fehler anders, was Code-Reviews zum Albtraum macht und Bugs unvermeidlich werden lässt."
+      },
+      "2": {
+        "title": "Try-Catch-Hölle",
+        "desc": "Verschachtelte Try-Catch-Blöcke verwandeln sauberen Code in unleserliche Spaghetti und verstecken die Geschäftslogik unter Schichten der Fehlerbehandlung."
+      },
+      "3": {
+        "title": "Stille Fehler und verlorener Kontext",
+        "desc": "Fehler werden verschluckt, Stack-Traces verschwinden, und das Debugging wird zu einem Ratespiel statt einem systematischen Prozess."
+      },
+      "4": {
+        "title": "Keine Typsicherheit",
+        "desc": "TypeScript kann Ihnen bei der traditionellen Fehlerbehandlung nicht helfen – Sie fragen sich, welche Ausnahmen geworfen werden könnten und wann."
+      }
+    },
+    "solution": {
+      "hint": "Die Lösung",
+      "title": "Toryx Fehlerbehandlung für JavaScript",
+      "desc": "Beginnen Sie mit dem Aufbau zuverlässiger Anwendungen mit typsicherer, vorhersehbarer Fehlerbehandlung, die Entwickler gerne verwenden.",
+      "1": {
+        "title": "Typsicher und Vorhersehbar",
+        "desc": "Toryx implementiert Rusts bewährtes Ok/Err-Muster und bietet Ihnen Garantien zur Kompilierzeit über die Fehlerbehandlung. TypeScript weiß genau, was schief gehen kann, damit Sie es elegant behandeln können – jedes einzelne Mal.",
+        "hint1": "Vollständige TypeScript-Inferenz",
+        "hint2": "Keine überraschenden Laufzeitausnahmen",
+        "hint3": "Fehler als Werte, nicht als Ausnahmen"
+      },
+      "2": {
+        "title": "Sauber und Konsistent",
+        "desc": "Verabschieden Sie sich von verschachtelten Try-Catch-Spaghetti. Toryx bietet ein standardmäßiges, elegantes Muster für die Fehlerbehandlung in Ihrer gesamten Codebasis, von APIs über Formulare bis hin zu Datenbankabfragen.",
+        "hint1": "Flache, lesbare Code-Struktur",
+        "hint2": "Teamweite Konsistenz",
+        "hint3": "Einfache Code-Reviews"
+      },
+      "3": {
+        "title": "Kampferprobt und Leichtgewichtig",
+        "desc": "Basierend auf Fehlerbehandlungsmustern, die in der Produktion von Millionen von Rust-Anwendungen bewährt wurden. Null Abhängigkeiten, minimaler Footprint, maximale Zuverlässigkeit.",
+        "hint1": "Inspiriert von Rusts Result-Typ",
+        "hint2": "Null Laufzeit-Overhead",
+        "hint3": "Funktioniert mit bestehendem Code"
+      }
+    },
+    "beforeAfter": {
+      "title": "Sehen Sie den Unterschied",
+      "desc": "Dieselbe asynchrone Operation, zwei Ansätze. Ein klarer Gewinner.",
+      "before": {
+        "title": "Traditionelles Try-Catch",
+        "desc": "Verschachtelt, unklar, fehleranfällig",
+        "arg1": "Verlorener Fehlerkontext",
+        "arg2": "Unbekannter Rückgabetyp"
+      },
+      "after": {
+        "title": "Mit Toryx",
+        "desc": "Sauber, explizit, typsicher",
+        "arg1": "Typsicher",
+        "arg2": "Einfache Fehlerbehandlung"
+      }
+    },
+    "supportedStack": {
+      "title": "Integrieren Sie es in Ihren Stack",
+      "desc": "Offizielle Integrationen für beliebte Frameworks, weitere folgen",
+      "tools": {
+        "express": {
+          "title": "Express.js Middleware",
+          "desc": "Plug-and-Play-Fehlerbehandlungs-Middleware, die das Fehlermanagement Ihrer Express-App transformiert. Fangen Sie Fehler automatisch ab, verwandeln Sie sie in konsistente Antworten und behalten Sie die vollständige Typsicherheit.",
+          "arg1": "Null-Konfiguration",
+          "arg2": "Typsicher",
+          "arg3": "Sichere Fehlerantwort"
+        }
+      },
+      "comingSoon": "Demnächst verfügbar",
+      "notified": "Möchten Sie benachrichtigt werden, wenn Ihr Framework unterstützt wird?"
+    },
+    "useCase": {
+      "title": "Perfekt für jedes Fehlerszenario",
+      "desc": "Von APIs bis zu Formularen behandelt Toryx Fehler konsistent in Ihrer gesamten Anwendung"
+    }
+  },
+  "Metadata": {
+    "title": "Toryx - Rust-inspirierte Fehlerbehandlung für TypeScript und JavaScript",
+    "description": "Vereinfachen Sie die Fehlerbehandlung in TypeScript und JavaScript mit Toryx. Implementieren Sie Rusts Ok/Err-Muster für konsistentes, typsicheres Fehlermanagement in Ihren Projekten.",
+    "keywords": "typescript fehlerbehandlung, javascript fehlerbehandlung, rust ok err, typsichere fehler, toryx, fehlerbehandlungs-bibliothek, typescript bibliothek, rust pattern javascript",
+    "ogTitle": "Toryx - Rust-inspirierte Fehlerbehandlung für TypeScript und JavaScript",
+    "ogDescription": "Vereinfachen Sie die Fehlerbehandlung in TypeScript und JavaScript mit Toryx. Implementieren Sie Rusts Ok/Err-Muster für konsistentes, typsicheres Fehlermanagement.",
+    "twitterTitle": "Toryx - Rust-inspirierte Fehlerbehandlung für TypeScript und JavaScript",
+    "twitterDescription": "Vereinfachen Sie die Fehlerbehandlung in TypeScript und JavaScript mit Toryx. Implementieren Sie Rusts Ok/Err-Muster für konsistentes, typsicheres Fehlermanagement."
+  }
+}

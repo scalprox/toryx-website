@@ -50,8 +50,12 @@ export async function generateMetadata(
         alternates: {
             canonical: `${baseUrl}/${locale}`,
             languages: {
+                "x-default": `${baseUrl}/en`,
                 fr: `${baseUrl}/fr`,
-                en: `${baseUrl}/en`
+                en: `${baseUrl}/en`,
+                es: `${baseUrl}/es`,
+                it: `${baseUrl}/it`,
+                de: `${baseUrl}/de`
             }
         },
         openGraph: {

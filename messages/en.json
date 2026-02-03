@@ -35,6 +35,7 @@
       }
     },
     "solution": {
+      "hint": "The solution",
       "title": "Toryx Error Handling for JavaScript",
       "desc": "Start building reliable applications with type-safe, predictable error handling that developers actually enjoy using.",
       "1": {

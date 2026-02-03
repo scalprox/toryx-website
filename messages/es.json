@@ -1,0 +1,108 @@
+{
+  "base": {
+    "submit": "Enviar",
+    "homeLink": "Inicio",
+    "npmLink": "Proyecto Npm",
+    "gitHubLink": "Código fuente Github",
+    "email": {
+      "unknownError": "No se pudo registrar, inténtalo de nuevo más tarde",
+      "duplicated": "Correo electrónico ya registrado",
+      "success": "Éxito",
+      "invalid": "El correo electrónico no es válido"
+    }
+  },
+  "HomePage": {
+    "toryx": "TORYX",
+    "heroTitle": "Manejo de Errores con Seguridad de Tipos",
+    "heroSub": "Toryx implementa el patrón Ok/Err probado de Rust para eliminar el caos en el manejo de errores. Construye aplicaciones más confiables con una gestión de errores consistente y predecible que escala con tu proyecto.",
+    "problems": {
+      "title": "El problema del manejo de errores",
+      "1": {
+        "title": "Manejo de errores inconsistente",
+        "desc": "Cada desarrollador en tu equipo maneja los errores de manera diferente, convirtiendo las revisiones de código en una pesadilla y haciendo los bugs inevitables."
+      },
+      "2": {
+        "title": "Infierno de try-catch",
+        "desc": "Los bloques try-catch anidados convierten el código limpio en espagueti ilegible, ocultando la lógica de negocio bajo capas de manejo de errores."
+      },
+      "3": {
+        "title": "Fallos silenciosos y pérdida de contexto",
+        "desc": "Los errores se tragan, las trazas de pila desaparecen, y la depuración se convierte en un juego de adivinanzas en lugar de un proceso sistemático."
+      },
+      "4": {
+        "title": "Sin seguridad de tipos",
+        "desc": "TypeScript no puede ayudarte con el manejo de errores tradicional, quedas preguntándote qué excepciones podrían lanzarse y cuándo."
+      }
+    },
+    "solution": {
+      "hint": "La solución",
+      "title": "Manejo de Errores Toryx para JavaScript",
+      "desc": "Comienza a construir aplicaciones confiables con manejo de errores seguro y predecible que los desarrolladores realmente disfrutan usar.",
+      "1": {
+        "title": "Seguro de Tipos y Predecible",
+        "desc": "Toryx implementa el patrón Ok/Err probado de Rust, brindándote garantías en tiempo de compilación sobre el manejo de errores. TypeScript sabe exactamente qué puede salir mal, para que puedas manejarlo con elegancia, cada vez.",
+        "hint1": "Inferencia completa de TypeScript",
+        "hint2": "Sin excepciones sorpresa en tiempo de ejecución",
+        "hint3": "Errores como valores, no excepciones"
+      },
+      "2": {
+        "title": "Limpio y Consistente",
+        "desc": "Despídete del espagueti de try-catch anidados. Toryx proporciona un patrón estándar y elegante para el manejo de errores en toda tu base de código, desde APIs hasta formularios y consultas de base de datos.",
+        "hint1": "Estructura de código plana y legible",
+        "hint2": "Consistencia en todo el equipo",
+        "hint3": "Revisiones de código fáciles"
+      },
+      "3": {
+        "title": "Probado en Batalla y Ligero",
+        "desc": "Construido sobre patrones de manejo de errores probados en producción por millones de aplicaciones Rust. Cero dependencias, huella mínima, máxima confiabilidad.",
+        "hint1": "Inspirado en el tipo Result de Rust",
+        "hint2": "Cero sobrecarga en tiempo de ejecución",
+        "hint3": "Funciona con código existente"
+      }
+    },
+    "beforeAfter": {
+      "title": "Ve la Diferencia",
+      "desc": "La misma operación asíncrona, dos enfoques. Un claro ganador.",
+      "before": {
+        "title": "Try-Catch Tradicional",
+        "desc": "Anidado, poco claro, propenso a errores",
+        "arg1": "Contexto de error perdido",
+        "arg2": "Tipo de retorno desconocido"
+      },
+      "after": {
+        "title": "Con Toryx",
+        "desc": "Limpio, explícito, seguro de tipos",
+        "arg1": "Seguridad de tipos",
+        "arg2": "Manejo de errores fácil"
+      }
+    },
+    "supportedStack": {
+      "title": "Conéctalo a tu stack",
+      "desc": "Integraciones oficiales para frameworks populares, con más en camino",
+      "tools": {
+        "express": {
+          "title": "Middleware Express.js",
+          "desc": "Middleware de manejo de errores plug-and-play que transforma la gestión de errores de tu aplicación Express. Captura errores automáticamente, transfórmalos en respuestas consistentes y mantén completa seguridad de tipos.",
+          "arg1": "Configuración Cero",
+          "arg2": "Seguro de Tipos",
+          "arg3": "Respuesta de error segura"
+        }
+      },
+      "comingSoon": "Próximamente",
+      "notified": "¿Quieres ser notificado cuando tu framework esté soportado?"
+    },
+    "useCase": {
+      "title": "Perfecto Para Cada Escenario de Error",
+      "desc": "Desde APIs hasta formularios, Toryx maneja errores de manera consistente en toda tu aplicación"
+    }
+  },
+  "Metadata": {
+    "title": "Toryx - Manejo de Errores Inspirado en Rust para TypeScript y JavaScript",
+    "description": "Simplifica el manejo de errores en TypeScript y JavaScript con Toryx. Implementa el patrón Ok/Err de Rust para una gestión de errores consistente y segura de tipos en tus proyectos.",
+    "keywords": "manejo de errores typescript, manejo de errores javascript, rust ok err, errores seguros de tipos, toryx, librería gestión de errores, librería typescript, patrón rust javascript",
+    "ogTitle": "Toryx - Manejo de Errores Inspirado en Rust para TypeScript y JavaScript",
+    "ogDescription": "Simplifica el manejo de errores en TypeScript y JavaScript con Toryx. Implementa el patrón Ok/Err de Rust para una gestión de errores consistente y segura de tipos.",
+    "twitterTitle": "Toryx - Manejo de Errores Inspirado en Rust para TypeScript y JavaScript",
+    "twitterDescription": "Simplifica el manejo de errores en TypeScript y JavaScript con Toryx. Implementa el patrón Ok/Err de Rust para una gestión de errores consistente y segura de tipos."
+  }
+}
