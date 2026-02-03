@@ -1,12 +1,12 @@
 import React from 'react';
 import {useTranslations} from "next-intl";
-import CodeBlock from "@/components/CodeBlock";
-import {express} from "@/data/codeExample";
+import CodeBlock from "~/components/CodeBlock";
+import {express} from "~/data/codeExample";
 import Image from "next/image";
 import {BsFillLightningChargeFill} from "react-icons/bs";
 import {IoShieldCheckmarkSharp} from "react-icons/io5";
 import {LuFileType} from "react-icons/lu";
-import EmailForm from "@/components/client/EmailForm";
+import EmailForm from "~/components/client/EmailForm";
 
 
 const SupportedStackSection = () => {

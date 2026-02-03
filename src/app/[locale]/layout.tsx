@@ -3,10 +3,11 @@ import React from "react";
 import type {Metadata} from "next";
 import {Inter, Barlow, Cascadia_Code} from "next/font/google";
 import {NextIntlClientProvider, hasLocale, Locale} from "next-intl";
-import {routing} from "@/i18n/routing";
+import {routing} from "~/i18n/routing";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 import {notFound} from "next/navigation";
-import Header from "@/components/Header";
+import Header from "~/components/Header";
+import Script from "next/script";
 
 const interSans = Inter({
     variable: "--font-inter-sans",
@@ -80,11 +81,12 @@ export default async function LocaleLayout({children, params}: LayoutProps<'/[lo
             <body
                 className={`${interSans.variable} ${barlowSans.variable} ${cascadiaSans.variable} antialiased`}
             >
-            <Header />
             <NextIntlClientProvider>
+                <Header />
                 {children}
             </NextIntlClientProvider>
             </body>
+            <Script src="/matomo.js" />
             </html>
         );
     }

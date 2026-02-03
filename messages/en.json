@@ -3,7 +3,13 @@
     "submit": "Submit",
     "homeLink": "Home",
     "npmLink": "Npm project",
-    "gitHubLink": "Github source code"
+    "gitHubLink": "Github source code",
+    "email": {
+      "unknownError": "Unable to register, try again later",
+      "duplicated": "Email already registered",
+      "success": "Success",
+      "invalid": "Email is invalid"
+    }
   },
   "HomePage": {
     "toryx": "TORYX",
@@ -83,6 +89,10 @@
       },
       "comingSoon": "Coming soon",
       "notified": "Want to be notified when your framework is supported ?"
+    },
+    "useCase": {
+      "title": "Perfect For Every Error Scenario",
+      "desc": "From APIs to forms, Toryx handles errors consistently across your entire application"
     }
   },
   "Metadata": {

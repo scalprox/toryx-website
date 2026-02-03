@@ -1,9 +1,10 @@
 import {useTranslations} from "next-intl";
-import CommandBlock from "@/components/CommandBlock";
-import ProblemSection from "@/components/section/ProblemSection";
-import SolutionSection from "@/components/section/SolutionSection";
-import BeforeAfterSection from "@/components/section/BeforeAfterSection";
-import SupportedStackSection from "@/components/section/SupportedStackSection";
+import CommandBlock from "~/components/CommandBlock";
+import ProblemSection from "~/components/section/ProblemSection";
+import SolutionSection from "~/components/section/SolutionSection";
+import BeforeAfterSection from "~/components/section/BeforeAfterSection";
+import SupportedStackSection from "~/components/section/SupportedStackSection";
+import UseCaseSection from "~/components/section/UseCaseSection";
 
 export default function Home() {
     const t = useTranslations('HomePage')

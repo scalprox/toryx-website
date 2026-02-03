@@ -1,7 +1,7 @@
 import React from 'react';
 import {useTranslations} from "next-intl";
-import CodeBlock from "@/components/CodeBlock";
-import {beforeToryx, afterToryx} from "@/data/codeExample";
+import CodeBlock from "~/components/CodeBlock";
+import {beforeToryx, afterToryx} from "~/data/codeExample";
 import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa6";
 
